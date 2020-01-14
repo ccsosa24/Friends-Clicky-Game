@@ -1,21 +1,32 @@
 .card {
     
     border-radius: 2px;
-    height: 325px;
+    height: 260px;
     margin: 1rem;
     position: relative;
-    width: 325px;
+    width: 260px;
     box-shadow: 0 6px 6px #999, 0 6px 6px #999;
+   overflow: hidden;
     
 
 }
 
 .card > .img-container {
-    justify-content: center;
-    overflow: hidden;
+   overflow: hidden;
+    
+    
+}
+
+.card > .img-container:hover {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 325px;
-    height: 325px;
+   
+   
+    margin-left: 10px;
+    transition: .10 ease-in-out;
+    -webkit-trasition: .10 ease-in-out;
     
+}
+.hover img:hover {
+    margin-left: -50px;
 }

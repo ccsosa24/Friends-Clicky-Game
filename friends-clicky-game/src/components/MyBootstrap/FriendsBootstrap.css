@@ -1,14 +1,15 @@
 .myjumbo {
     background: blueviolet;
+    text-align: center;
 }
 
-.h1{
+h1{
     color: black;
-    font-size: 40px;
+    font-size: 60px;
     font: center;
     /* font: url(./AllFonts/GabrielWeiss); */
 }
 
-.p {
-font-size: 20px;
+p {
+font-size: 30px;
 }
