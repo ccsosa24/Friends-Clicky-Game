@@ -18,11 +18,18 @@ class App extends Component {
     userClicked:[]
 
 };
+
+ClickedId = id => {
+  const userClicked = this.state.userClicked;
+  const score = this.state.score;
+  const highScore = this.state.highScore;
+  this.setState({ outCome: 0 })
+};
   
   shuffleFendsCard=(id)=>{
     console.log(id)
     // this.setState({
-    //   userClicked:this.state.userClicked.append(id)
+    //   FendCards:this.state.userClicked.append(id)
     // })
   }
 
@@ -40,7 +47,8 @@ class App extends Component {
            image={fendCards.image}
            FendCards={fendCards.id}
            ShuffleFendsCard={this.state.FendsCard} 
-           clickIt={this.shuffleFendsCard()}/>
+           clickIt={this.shuffleFendsCard()}
+           ClickedId={this.ClickedId}/>
         
         ))}
         </ul>

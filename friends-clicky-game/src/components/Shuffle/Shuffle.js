@@ -14,7 +14,7 @@ class App extends Component {
        shuffleFendsCard = FendCards => {
             const fendId =this.state.fendId;
 
-            const map1 = FendCards.map(x=> console.log(x))
+            const map1 = FendCards.map(x => console.log(x))
 
             // if(fendId.includes(id)){
             //     this.setState({ FendId: [], score: 0, outCome: "Oh My God!! Loser!!" });
