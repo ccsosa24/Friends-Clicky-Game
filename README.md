@@ -2,6 +2,8 @@
 
 
 
+![friendsgame](images/freindsgame.jpeg)
+
  
 Getting Started
 
@@ -27,7 +29,7 @@ Author
 
 Christina Sosa 
 
-https://github.com/ccsosa24
+
 
 
 
