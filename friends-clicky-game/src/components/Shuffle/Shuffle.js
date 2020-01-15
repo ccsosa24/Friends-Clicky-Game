@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-
-class App extends Component {
-        state ={
-            FendCards:"",
-            score: 0,
-            highScore: 0,
-            fendId: [],
-            outCome: ""
-
-        };
-
-       shuffleFendsCard = FendCards => {
+    
+ShuffleFendsCard = FendCards => {
             const fendId =this.state.fendId;
 
             const map1 = FendCards.map(x => console.log(x))
@@ -27,6 +17,7 @@ class App extends Component {
        }
 
        render() {
+
            return (
                <score total={this.state.score}
                    outCome={this.state.outCome} />
@@ -34,9 +25,10 @@ class App extends Component {
 
                
            )
-       }
+       };
   
 
 
-    };
-export default App;
+    
+
+export default Shuffle;

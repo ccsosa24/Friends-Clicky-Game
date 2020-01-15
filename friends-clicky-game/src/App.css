@@ -4,3 +4,10 @@
     background-repeat: no-repeat;
   background-image: url(https://cms.prod.nypr.digital/images/293045/fill-661x496/);
 }
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -6,12 +6,12 @@ const FendCards = (props) => {
 
     return (
         
-        <div className="card col-md-3 hover" onClick={() => props.clickIt(props.id)} >
+        <div className="card col-md-3 hover" >
             <div className="img-container">
                 <div className="row" >
                
                 <img alt={props.name} src={props.image} id={props.id} 
-                onClick={() => props.clickIt()} />
+                onClick={() => props.ClickedId(props.id)}/>
                
                 </div>           
             </div>
