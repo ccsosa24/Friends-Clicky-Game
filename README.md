@@ -2,7 +2,7 @@
 
 
 
-![friendsgame](images/freindsgame.jpeg)
+![friendsgame](images/friendsgame.jpg)
 
  
 Getting Started
